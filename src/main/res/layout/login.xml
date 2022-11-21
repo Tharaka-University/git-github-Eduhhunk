@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1BEA0C"
+    android:orientation="vertical"
+    android:padding="0sp"
+    tools:context=".login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/m_bora"
+        android:textColor="@color/black"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                app:hintTextColor="@color/black"
+                app:boxCornerRadiusBottomEnd="50sp"
+                app:boxCornerRadiusBottomStart="50sp"
+                app:boxBackgroundMode="outline"
+                android:textColorHint="@color/black"
+                app:errorTextColor="@color/black"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberPassword" />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/username"
+                    app:hintTextColor="@color/black"
+                    android:hint="@string/Username"
+                    android:textColorHint="@color/black"
+                    app:boxCornerRadiusBottomEnd="50sp"
+                    app:boxCornerRadiusBottomStart="50sp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:boxBackgroundMode="outline"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/black">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+
+            android:id="@+id/login_button"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/login"
+            android:textColor="@color/black" />
+
+        <Button
+
+            android:id="@+id/register"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/register"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</LinearLayout>
+
+

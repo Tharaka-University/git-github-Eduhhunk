@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "227732455366",
+    "firebase_url": "https://m-bora-society-4b35f-default-rtdb.firebaseio.com",
+    "project_id": "m-bora-society-4b35f",
+    "storage_bucket": "m-bora-society-4b35f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227732455366:android:3b74ec3bac7fbb4745fcc7",
+        "android_client_info": {
+          "package_name": "com.example.m_bora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227732455366-lmtf5ckfjhvp0aifunloujec1pip5i3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUY5jeVTp29THuq46yny1pnURaefDVadI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227732455366-lmtf5ckfjhvp0aifunloujec1pip5i3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
